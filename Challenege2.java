@@ -7,7 +7,6 @@
  * @since 2/11/25
  */
 import java.util.Scanner;
-import javax.swing.JOptionPane;
 public class Challenege2 {
     public static void main (String[] args){
         String firstName, middleName, lastName;

@@ -1,33 +1,32 @@
 
 /**
- * Write a description of class Challenge12 here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * This program will ask for a city, and then it will return the character
+ * amount, the name of the city in caps, and in lowercase. Then it will list the
+ * first character.
+ * @author: Alan Doughman
+ * @version: v1.0
+ * @since: 2/13/25
  */
-public class Challenge12
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Challenge12
-     */
-    public Challenge12()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+import java.util.Scanner;
+public class Challenge12 {
+    public static void main (String[] args) {
+        String city;
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter a city: ");
+        city = input.nextLine();
+        
+        int length = city.length();
+        String upper = city.toUpperCase();
+        String lower = city.toLowerCase();
+        char first = city.charAt(0);
+        
+        
+        System.out.println("This city has: " + length + " characters");
+        System.out.println(city + " in uppercase: " + upper);
+        System.out.println(city + " in lowercase: " + lower);
+        System.out.print(city + "'s first character: " + first);
+        
     }
 }
