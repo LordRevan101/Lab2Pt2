@@ -1,0 +1,6 @@
+What is your first name? Alan
+What is your middle name? Jeremiah
+What is your last name? Doughman
+
+Your name is: Alan Jeremiah Doughman
+Your initials are: AJD

@@ -1,0 +1,5 @@
+Enter a city: Poway
+This city has: 5 characters
+Poway in uppercase: POWAY
+Poway in lowercase: poway
+Poway's first character: P
