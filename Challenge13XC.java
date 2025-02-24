@@ -12,9 +12,10 @@ public class Challenge13XC {
         
         final double TAX = 0.0725;
         final double TIP = 0.2;
+        double price;
         
         System.out.print("Price for meal: $");
-        double price = input.nextDouble();
+        price = input.nextDouble();
         
         System.out.println("The tax is: " + String.format("$%,.2f",TAX*price));
         System.out.println("The tip is: " + String.format("$%,.2f",TIP*price));
