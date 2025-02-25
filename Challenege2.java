@@ -1,17 +1,17 @@
+import java.util.Scanner;
 /**
  * This program will ask for the users first, middle, and last time, and will
  * print out the full name along with the initials.
- * @author: Alan Dougman
- * @version: v1.1
- * @since: 2/11/25
+ * @author Alan Dougman
+ * @version v1.1
+ * @since 2/11/25
  */
-import java.util.Scanner;
 public class Challenege2 {
     public static void main (String[] args){
         String firstName, middleName, lastName;
-        char firstIni;
-        char secondIni;
-        char thirdIni;
+        char firstInit;
+        char secondInit;
+        char thirdInit;
         
         Scanner input = new Scanner(System.in);
         
@@ -24,12 +24,12 @@ public class Challenege2 {
         System.out.print("What is your last name? ");
         lastName = input.nextLine();
         
-        firstIni = firstName.charAt(0);
-        secondIni = middleName.charAt(0);
-        thirdIni = lastName.charAt(0);
+        firstInit = firstName.charAt(0);
+        secondInit = middleName.charAt(0);
+        thirdInit = lastName.charAt(0);
         
         System.out.println("\nYour name is: " + firstName + " " + middleName + " " + lastName);
-        System.out.print("Your initials are: " + firstIni + secondIni + thirdIni);
+        System.out.print("Your initials are: " + firstInit + secondInit + thirdInit);
     }
     
 }

@@ -1,16 +1,16 @@
+import java.util.Scanner;
 /**
  * This program will ask the user for the price, then it will calculate the tax
  * and the tip respectively, then input a total price.
- * @author: Alan Doughman
- * @version: v1.01
- * @since: 2/18/25
+ * @author Alan Doughman
+ * @version v1.01
+ * @since 2/18/25
  */
-import java.util.Scanner;
 public class Challenge13XC {
     public static void main (String[] args) {
         Scanner input = new Scanner(System.in);
         
-        final double TAX = 0.0725;
+        final double TAX = 0.06745;
         final double TIP = 0.2;
         double price;
         

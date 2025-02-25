@@ -1,0 +1,4 @@
+Price for meal: $25.5
+The tax is: $1.72
+The tip is: $5.10
+The total price is: $32.32
